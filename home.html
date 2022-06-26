@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./stylehome.css">
+    <title>Escutar muda tudo - Spotify</title>
+</head>
+<body>
+    <!-- Navbar-->
+    <navbar id="navbar">
+        <div class="navbar-container">
+            <img src="./img/spotifylogo.png" alt="Spotify Logo" class="logo" onclick="clique()">
+            <ul class="navbar-items">
+                <li class="navbar-item" onclick="clique()">Premium</li>
+                <li class="navbar-item" onclick="clique()">Suporte</li>
+                <li class="navbar-item" onclick="clique()">Baixar</li>
+                <li class="navbar-item" onclick="clique()">Inscrever-se</li>
+                <li class="navbar-item" onclick="clique()">Entrar</li>
+            </ul>
+        </div>
+    </navbar>
+
+    <!-- Showcase -->
+    <div id="showcase">
+        <div class="showcase-container">
+            <h1>Escutar muda tudo</h1>
+            <p>Milhões de músicas e podcasts para explorar. E nem precisa de cartão de crédito.</p>
+            <button onclick="clique()" class="btn-primary">BAIXE O SPOTIFY FREE</button>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer id="footer">
+        <div class="footer-content">
+            <img src="./img/spotifylogo.png" alt="Spotify Logo" class="logo" onclick="clique()">
+            <ul class="footer-menu">
+                <p>EMPRESA</p>
+                <li class="footer-menu-item" onclick="clique()">Sobre</li>
+                <li class="footer-menu-item" onclick="clique()">Empregos</li>
+                <li class="footer-menu-item" onclick="clique()">For the Record</li>
+            </ul>
+
+            <ul class="footer-menu">
+                <p>COMUNIDADES</p>
+                <li class="footer-menu-item" onclick="clique()">Para Artistas</li>
+                <li class="footer-menu-item" onclick="clique()">Desenvolvedores</li>
+                <li class="footer-menu-item" onclick="clique()">Publicidade</li>
+                <li class="footer-menu-item" onclick="clique()">Investidores</li>
+                <li class="footer-menu-item" onclick="clique()">Fornecedores</li>
+            </ul>
+
+            <ul class="footer-menu">
+                <p>LINKS ÚTEIS</p>
+                <li class="footer-menu-item" onclick="clique()">Suporte</li>
+                <li class="footer-menu-item" onclick="clique()">Player da Web</li>
+                <li class="footer-menu-item" onclick="clique()">Aplicativo móvel grátis</li>
+            </ul>
+
+            <div class="socials">
+                <i class="fa-brands fa-instagram" onclick="insta()"></i>
+                <i class="fa-brands fa-twitter" onclick="twitter()"></i>
+                <i class="fa-brands fa-facebook" onclick="face()"></i>
+            </div>
+        </div>
+        <div class="footer-info">
+            <ul class="footer-info-items">
+                <li class="footer-info-item" onclick="clique()">Legal</li>
+                <li class="footer-info-item" onclick="clique()">Centro de Privacidade</li>
+                <li class="footer-info-item" onclick="clique()">Política de Privacidade</li>
+                <li class="footer-info-item" onclick="clique()">Cookies</li>
+                <li class="footer-info-item" onclick="clique()">Sobre anúncios</li>
+            </ul>
+
+            <div class="rights">
+                <div class="country">
+                    <p onclick="clique()">Brasil</p>
+                    <img src="./img/brazil.png" alt="Bandeira do Brasil" class="flag">
+                </div>
+                <p>&copy; 2022 Spotify AB</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./script.js"></script>
+    <script src="https://kit.fontawesome.com/6aafba59bc.js" crossorigin="anonymous"></script>
+</body>
+</html>
